@@ -11,8 +11,8 @@ A [Flarum](http://flarum.org) extension. Allows to create a customizable Top Bar
 
 **Admin**
 ![alt Admin](https://i.imgur.com/vzOlWJo.png)
-**Mobile**
 
+**Mobile**
 <p align="center">
   <img src="https://i.imgur.com/a9aZXgL.png" title="Mobile"/>
 </p>
