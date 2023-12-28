@@ -20,9 +20,9 @@ export default class TopBar extends Component {
 	view() {
 		return (
 			<span className='TopBar'>
-				<div className='container'>
+				<span className='container'>
 					{m.trust(app.forum.attribute('litalino-top-bar.topbarHTML'))}
-				</div>
+				</span>
 			</span>
 		);
 	}

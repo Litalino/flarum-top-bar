@@ -1,45 +1,3 @@
-
-/****REPONSIVE****/
-/*@media only screen and (max-width: 600px) {}*/
-/*
-@screen-phone-max:                 (@screen-tablet - 0.02);
-
-@screen-tablet:                    768px;
-@screen-tablet-max:                (@screen-desktop - 0.02);
-
-@screen-desktop:                   992px;
-@screen-desktop-max:               (@screen-desktop-hd - 0.02);
-
-@screen-desktop-hd:                1100px;
-
-@phone:                            ~"(max-width: @{screen-phone-max})";
-@tablet:                           ~"(min-width: @{screen-tablet}) and (max-width: @{screen-tablet-max})";
-@desktop:                          ~"(min-width: @{screen-desktop}) and (max-width: @{screen-desktop-max})";
-@desktop-hd:                       ~"(min-width: @{screen-desktop-hd})";
-
-@tablet-up:                        ~"(min-width: @{screen-tablet})";
-@desktop-up:                       ~"(min-width: @{screen-desktop})";
-*/
-/*
-.App-header .Header-controls li.item-top-bar {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    background: var(--header-control-bg);
-    margin-left: 0;
-    height: 30px;
-    transition: height .3s ease-out
-}
-*/
-/*
-header#header {
-    padding-top: 42px;
-    transition: height .3s ease-out,padding-top .3s ease-out;
-}
-*/
-
 .App-header {
     /*height: ~"var(--header-height) + 1";*/
     padding-top: 38px;
@@ -72,6 +30,10 @@ header#header {
 
 .TopBar .container, .TopBar ul {
     height: 100%
+}
+
+.TopBar .container {
+    display: block;
 }
 
 .TopBar {
@@ -146,8 +108,6 @@ header#header {
         padding-left: 10px
     }
 
-
-//@media (max-width: 767.98px) {
     .TopBar {
         margin-top:10px;
         padding: 10px 0px;
@@ -162,69 +122,4 @@ header#header {
             justify-content: flex-start
         }
     }
-//}
 }
-
-/*@media (min-width: 768px)  {
-    .TopBar {
-        height:100%
-    }
-}
-
-.TopBar .container,.TopBar ul {
-    height: 100%
-}
-
-.TopBar ul {
-    margin-left: auto;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    align-items: center;
-    justify-content: flex-end
-}
-
-/*@media (max-width: 767.98px) {
-    .TopBar ul {
-        flex-direction:column;
-        align-items: flex-start;
-        justify-content: flex-start
-    }
-}
-
-.TopBar li.TopBar-item {
-    display: flex;
-    align-items: center
-}
-
-//(min-width: 768px)
-@media (min-width: 768px) {
-    .TopBar li.TopBar-item:not(:first-child) {
-        margin-left:20px
-    }
-
-    .TopBar li.TopBar-item:last-child {
-        padding-right: 13px
-    }
-}
-
-/*.TopBar a {
-    background-color: transparent;
-    padding: 6px 0;
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: bold;
-    color: var(--ice-white)
-}
-
-//(max-width: 767.98px)
-@media (max-width: 767.98px) {
-    .TopBar a {
-        font-size:13px
-    }
-}
-
-
-*/
