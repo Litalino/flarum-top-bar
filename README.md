@@ -34,22 +34,26 @@ php flarum cache:clear
 ```
 ### Add Code 🇦
 
-```<ul>
+```
+<ul>
                 <li class="TopBar-item"><a href="#" external="" target="_blank" title="Private Customers">Private Customers</a></li>
                 <li class="TopBar-item"><a href="#" external="" target="_blank" title="Business Customers">Business Customers</a></li>
                 <li class="TopBar-item"><a href="#" external="" target="_blank" title="Help">Help</a></li>
                 <li class="TopBar-item"><a href="#" external="" target="_blank" title="Cookie">Cookie</a></li>
                 <li class="TopBar-item"><a href="#" external="" target="_blank" title="My Sunrise">My Sunrise</a></li>
-</ul>```
+</ul>
+```
 
 If you want the top bar tag to be on the left: add the bottom css to Custom Styles: Admin -> Appearance -> Custom Styles
 
-```.TopBar ul {
+```
+.TopBar ul {
      justify-content: flex-start !important;
-}```
+}
+```
 
 
-## Links
+#### Links
 
 - [Packagist](https://packagist.org/packages/litalino/flarum-top-bar)
 - [GitHub](https://github.com/litalino/flarum-top-bar)
