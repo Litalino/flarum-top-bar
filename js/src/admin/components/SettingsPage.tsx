@@ -20,7 +20,7 @@ export default class SettingsPage extends ExtensionPage {
               label: app.translator.trans('litalino-top-bar.admin.settings.topbar_html_label'),
               help: app.translator.trans('litalino-top-bar.admin.settings.topbar_html_help'),
               type: 'textarea',
-              setting: 'litalino-top-bar.topbar',
+              setting: 'litalino-top-bar.topbar_html',
               placeholder: eg
             })}
             {this.submitButton()}

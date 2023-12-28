@@ -25,5 +25,5 @@ return [
     new Extend\Locales(__DIR__ . '/locale'),
 
     (new Extend\Settings())
-        ->serializeToForum('litalino-top-bar.topbarHTML', 'litalino-top-bar.topbar_HTML')
+        ->serializeToForum('litalino-top-bar.topbarHTML', 'litalino-top-bar.topbar_html')
 ];
