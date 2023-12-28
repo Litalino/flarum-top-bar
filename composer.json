@@ -1,0 +1,67 @@
+{
+    "name": "litalino/flarum-top-bar",
+    "description": "Allows to create a customizable Top Bar.",
+    "keywords": [
+        "flarum",
+        "flarum-extension",
+        "top bar"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.2"
+    },
+    "support": {
+        "source": "https://github.com/litalino/flarum-top-bar",
+        "forum": "https://discuss.flarum.org/d/10000000000000000000000"
+    },
+    "authors": [
+        {
+            "name": "Litalino",
+            "email": "info@khatvongsong.vn",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://khatvongsong.vn",
+    "extra": {
+        "flarum-extension": {
+            "title": "Top Bar",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-home",
+                "color": "#fff",
+                "backgroundColor": "#D3241C"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": false,
+                "css": false,
+                "locale": true,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": true,
+                "typescript": false,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    },
+    "require-dev": {
+      "flarum/phpstan": "*"
+    },
+    "scripts": {
+        "analyse:phpstan": "phpstan analyse",
+        "clear-cache:phpstan": "phpstan clear-result-cache"
+    },
+    "scripts-descriptions": {
+        "analyse:phpstan": "Run static analysis"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
