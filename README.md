@@ -32,7 +32,7 @@ composer update litalino/flarum-top-bar:"*"
 php flarum migrate
 php flarum cache:clear
 ```
-###Add Code 🇦
+### Add Code 🇦
 
 ```<ul>
                 <li class="TopBar-item"><a href="#" external="" target="_blank" title="Private Customers">Private Customers</a></li>
@@ -47,6 +47,7 @@ If you want the top bar tag to be on the left: add the bottom css to Custom Styl
 ```.TopBar ul {
      justify-content: flex-start !important;
 }```
+
 
 ## Links
 
