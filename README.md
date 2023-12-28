@@ -4,7 +4,7 @@
 
 A [Flarum](http://flarum.org) extension. Allows to create a customizable Top Bar.
 
-[img]https://i.imgur.com/aohIU5N.png[/img]
+![alt home](https://i.imgur.com/aohIU5N.png)
 
 **Scrolled**
 https://i.imgur.com/X1zqLEG.png
