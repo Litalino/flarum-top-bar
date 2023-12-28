@@ -12,9 +12,10 @@ A [Flarum](http://flarum.org) extension. Allows to create a customizable Top Bar
 **Admin**
 ![alt Admin](https://i.imgur.com/vzOlWJo.png)
 **Mobile**
-[center]
-![alt Mobile](https://i.imgur.com/a9aZXgL.png)
-[/center]
+
+<p align="center">
+  ![alt Mobile](https://i.imgur.com/a9aZXgL.png)
+</p>
 
 ## Installation
 
