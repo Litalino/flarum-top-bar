@@ -7,15 +7,15 @@ A [Flarum](http://flarum.org) extension. Allows to create a customizable Top Bar
 [img]https://i.imgur.com/aohIU5N.png[/img]
 
 **Scrolled**
-[img]https://i.imgur.com/X1zqLEG.png[/img]
+https://i.imgur.com/X1zqLEG.png
 
 **Admin**
-[img]https://i.imgur.com/vzOlWJo.png[/img]
+https://i.imgur.com/vzOlWJo.png
 
 **Mobile**
 [center]
-[img]https://i.imgur.com/a9aZXgL.png[/img]
- [/center]
+https://i.imgur.com/a9aZXgL.png
+[/center]
 
 ## Installation
 
