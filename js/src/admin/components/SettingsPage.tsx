@@ -14,7 +14,6 @@ export default class SettingsPage extends ExtensionPage {
       <div className="AuthorFilterSettingsPage">
         <div className="container">
           <p className="helpText">{app.translator.trans('litalino-top-bar.admin.settings.intro')}</p>
-          <p className="exText">{app.translator.trans('litalino-top-bar.admin.settings.intro')}</p>
           <div className="Form">
             {this.buildSettingComponent({
               label: app.translator.trans('litalino-top-bar.admin.settings.topbar_html_label'),
