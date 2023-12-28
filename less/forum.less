@@ -67,18 +67,25 @@
 
     }
     
-    
 }
 
 //(min-width: 768px) 
 @media @tablet-up {
-    .scrolled .App-header .Header-controls li.item-top-bar {
-        height:3px;
-        background: var(--primary-color);
+    .scrolled {
+        .App-header {
+            .Header-controls {
+                li.item-top-bar {
+                    height:3px;
+                    background: var(--primary-color);
+
+                    .TopBar{
+                        display: none;
+                    }
+                }
+            }
+        }
     }
-    .scrolled .App-header .Header-controls li.item-top-bar .TopBar{
-        display: none;
-    }
+ 
     .TopBar {
         height: 100%;
 
@@ -98,14 +105,18 @@
     .App-content {
         margin-top: 0px;
     }
-    .App-header .Header-controls li.item-top-bar {
-        position:static;
-        width: auto;
-        height: auto;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-bottom: 10px;
-        padding-left: 10px
+    .App-header {
+        .Header-controls {
+            li.item-top-bar {
+                position:static;
+                width: auto;
+                height: auto;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: 10px;
+                padding-left: 10px
+            }
+        }
     }
 
     .TopBar {

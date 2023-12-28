@@ -1,31 +1,30 @@
-# Top Bar
+# Landing Page
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/litalino/flarum-top-bar.svg)](https://packagist.org/packages/litalino/flarum-top-bar) [![Total Downloads](https://img.shields.io/packagist/dt/litalino/flarum-top-bar.svg)](https://packagist.org/packages/litalino/flarum-top-bar)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/datlechin/flarum-landing-page.svg)](https://packagist.org/packages/datlechin/flarum-landing-page) [![Total Downloads](https://img.shields.io/packagist/dt/datlechin/flarum-landing-page.svg)](https://packagist.org/packages/datlechin/flarum-landing-page)
 
-A [Flarum](http://flarum.org) extension. Allows to create a customizable Top Bar.
+A [Flarum](http://flarum.org) extension. Allows to create a customizable landing page that non-logged in users will see.
 
-![TopBar](https://github.com/Litalino/flarum-top-bar/assets/99712477/77f16d3f-b465-4d3c-ad12-a0b4c74dd7f2)
-
-![TopBar-scroll](https://github.com/Litalino/flarum-top-bar/assets/99712477/6dd81bbc-fcd5-469f-9694-3cf7822589ef)
+![](https://i.imgur.com/jJ04rlw.png)
+![](https://i.imgur.com/SaidJ58.png)
 
 ## Installation
 
 Install with composer:
 
 ```sh
-composer require litalino/flarum-top-bar:"*"
+composer require datlechin/flarum-landing-page:"*"
 ```
 
 ## Updating
 
 ```sh
-composer update litalino/flarum-top-bar:"*"
+composer update datlechin/flarum-landing-page:"*"
 php flarum migrate
 php flarum cache:clear
 ```
 
 ## Links
 
-- [Packagist](https://packagist.org/packages/litalino/flarum-top-bar)
-- [GitHub](https://github.com/litalino/flarum-top-bar)
-- [Discuss](https://discuss.flarum.org/d/1000000000000000000000000000000)
+- [Packagist](https://packagist.org/packages/datlechin/flarum-landing-page)
+- [GitHub](https://github.com/datlechin/flarum-landing-page)
+- [Discuss](https://discuss.flarum.org/d/29973)
