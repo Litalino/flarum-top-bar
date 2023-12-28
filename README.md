@@ -37,4 +37,4 @@ php flarum cache:clear
 
 - [Packagist](https://packagist.org/packages/litalino/flarum-top-bar)
 - [GitHub](https://github.com/litalino/flarum-top-bar)
-- [Discuss](hhttps://discuss.flarum.org/d/33866-top-bar-extension)
+- [Discuss](https://discuss.flarum.org/d/33866-top-bar-extension)
