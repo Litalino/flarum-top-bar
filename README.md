@@ -5,6 +5,8 @@
 A [Flarum](http://flarum.org) extension. Allows to create a customizable Top Bar.
 
 ![alt home](https://i.imgur.com/aohIU5N.png)
+![TopBar-drop](https://github.com/Litalino/flarum-top-bar/assets/99712477/74fb82eb-8897-45ff-b372-84d24eb11b79)
+
 
 **Scrolled**
 ![alt Scrolled](https://i.imgur.com/X1zqLEG.png)
