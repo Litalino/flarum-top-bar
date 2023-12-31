@@ -28,7 +28,7 @@
     height: var(--header-height);
 }
 
-.TopBar .container, .TopBar ul {
+.TopBar .container, .TopBar ul:not(.Dropdown-menu) {
     height: 100%
 }
 
@@ -38,7 +38,7 @@
 
 .TopBar {
 
-    ul {
+    ul:not(.Dropdown-menu) {
         margin-left: auto;
         display: flex;
         flex-wrap: wrap;
@@ -50,9 +50,12 @@
 
         li.TopBar-item {
             display: flex;
-            align-items: center
+            align-items: center;
+            .ButtonGroup>.Button {
+                float: unset;
+            }
         }
-        a {
+        a:not(.Dropdown-menu li a) {
             background-color: transparent;
             padding: 6px 0;
             font-size: 14px;
@@ -119,7 +122,7 @@
         }
     }
 
-    .TopBar {
+    .TopBar:not(.Dropdown-menu) {
         margin-top:10px;
         padding: 10px 0px;
 
@@ -127,10 +130,20 @@
             font-size:13px
         }
         
-        ul {
+        ul:not(.Dropdown-menu ul) {
             flex-direction: column;
             align-items: flex-start;
-            justify-content: flex-start
+            justify-content: flex-start;
+            display: block;
+
+            li.TopBar-item {
+                display: flex;
+                align-items: center;
+                .ButtonGroup>.Button {
+                    float: left;
+                }
+            }
+
         }
     }
 }

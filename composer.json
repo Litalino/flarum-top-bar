@@ -26,7 +26,7 @@
     "extra": {
         "flarum-extension": {
             "title": "Top Bar",
-            "category": "feature",
+            "category": "theme",
             "icon": {
                 "name": "fas fa-home",
                 "color": "#fff",
