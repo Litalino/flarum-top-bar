@@ -44,6 +44,52 @@ php flarum cache:clear
                 <li class="TopBar-item"><a href="#" external="" target="_blank" title="Cookie">Cookie</a></li>
                 <li class="TopBar-item"><a href="#" external="" target="_blank" title="My Sunrise">My Sunrise</a></li>
 </ul>
+
+or
+
+<ul>
+                <li class="TopBar-item"><a href="#" external="" target="_blank" title="Private Customers">Private Customers</a></li>
+                <li class="TopBar-item"><a href="#" external="" target="_blank" title="Business Customers">Business Customers</a></li>
+                <li class="TopBar-item"><a href="#" external="" target="_blank" title="Help">Help</a></li>
+                <li class="TopBar-item"><a href="#" external="" target="_blank" title="Cookie">Cookie</a></li>
+                <li class="TopBar-item"><a href="#" external="" target="_blank" title="My Sunrise">My Sunrise</a></li>
+                <li class="TopBar-item Sub-menu-On">
+                    <span class="ButtonGroup Dropdown dropdown Dropdown--split LinkDropdown itemCount4">
+                        <a class="LinksButton SplitDropdown-button Button  Button--link" href="#">
+                            <span class="LinksButton-title">About</span>
+                        </a>
+                        <button class="Dropdown-toggle Button Button--icon  Button--link" data-toggle="dropdown" aria-expanded="false">
+                            <i aria-hidden="true" class="icon fas fa-caret-down Button-caret"></i>
+                        </button>
+                        <ul class="Dropdown-menu dropdown-menu Dropdown-menu--right">
+                            <li class="item-link2">
+                                <a class="LinksButton SplitDropdown-button Button  Button--link" href="#">
+                                    <span class="LinksButton-title">About</span>
+                                </a>
+                            </li>
+                            <li class="item-link2-3">
+                                <a class="LinksButton Button Button--link LinksButton--inDropdown" href="#">
+                                    <i aria-hidden="true" class="icon fa fa-question Button-icon LinksButton-icon"></i>
+                                    <span class="LinksButton-title">Faq</span>
+                                </a>
+                            </li>
+                            <li class="item-link2-1">
+                                <a class="LinksButton Button Button--link LinksButton--inDropdown" external="" href="#">
+                                    <i aria-hidden="true" class="icon fas fa-quote-left Button-icon LinksButton-icon"></i>
+                                    <span class="LinksButton-title">Quy tắc</span>
+                                </a>
+                            </li>
+                            <li class="item-link2-4">
+                                <a class="LinksButton Button Button--link LinksButton--inDropdown" href="#">
+                                    <i aria-hidden="true" class="icon fas fa-book Button-icon LinksButton-icon"></i>
+                                    <span class="LinksButton-title">Chính sách</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </span>
+                </li>
+</ul>
+
 ```
 
 If you want the top bar tag to be on the left: add the bottom css to Custom Styles: Admin -> Appearance -> Custom Styles
