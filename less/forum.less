@@ -1,6 +1,10 @@
 .App-header {
     /*height: ~"var(--header-height) + 1";*/
-    padding-top: 38px;
+    @media @tablet-up {
+        height: 80px;
+        padding-top: 38px;
+    }
+    
     transition: height .3s ease-out,padding-top .3s ease-out;
 
     .Header-controls {
@@ -63,9 +67,11 @@
             font-weight: bold;
             color: var(--ice-white)
         }
-
         a:hover {
             text-decoration: underline
+        }
+        a.LinksButton:not(.LinksButton--label)::after {
+            content: none;
         }
 
     }
@@ -148,8 +154,10 @@
     }
 }
 
-@media (min-width: 768px) and (min-width: 768px) {
-    .App-header {
-        height: 80px;
+.drawerOpen {
+    @media @phone {
+        .App-drawer {
+            overflow-y: auto;
+        }
     }
 }
